@@ -35,7 +35,7 @@ Repeat steps 3-5 until there are no more aliens or no more cities.
 
 To run the simulation, run the main.go file in the root directory of this repository:
 
-`go run main.go -map <map_file> -aliens <num_aliens>` <br/>
+`go run main.go <num_aliens>` <br/>
 
 The map_file argument is a text file containing a map of cities and their neighbors. Each line in the file should contain the name of a city, followed by a list of its neighboring cities separated by commas. 
 
